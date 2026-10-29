@@ -1317,6 +1317,26 @@ is quantity, not quality."
 * Humans catch design issues  
 * Both are necessary
 
+### **Reading the Output of These Tools**
+
+Automated tools produce confident output in consistent units, and confident  
+output in consistent units reads as objective whether or not it is. Knowing  
+what a given finding is evidence *of* is a skill in its own right:
+
+* A maintainability grade is a vendor's model rendered as a letter  
+* A code smell is a rule somebody wrote down  
+* Coverage counts lines executed, not behaviour verified  
+* A green check means only that the checks which ran, passed  
+* But: a tool's silence is not evidence that a practice is absent
+
+The companion guidebook **"Code Futures: Reading Automated Analysis of Your  
+Codebase"** (https://github.com/oss-slu/guidebook_code_futures) treats this at  
+length, including a worked example report. It is the automated counterpart to  
+this document: broad, cheap, repeatable, and blind to everything requiring  
+judgement. This guidebook and its rubric remain the assessment instrument — the  
+automated report produces evidence to bring to an assessment, not a substitute  
+for one.
+
 ---
 
 ## **Learning Resources**
